@@ -1,0 +1,32 @@
+.message{
+  width: 1300px;
+  margin: auto;
+}
+.message_user{
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  /* identical to box height, or 111% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.message__userpanel{
+  margin-top: 40px;
+  padding: 18px 24px;
+  @include flex(space-between,center);
+  background-color: rgba(106, 150, 216, 1);
+  border-radius: 14px 14px 0px 0px;
+}
+.user__name{
+  display: flex;
+  align-items: center;
+}
+.user__name::before{
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+}

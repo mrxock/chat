@@ -1,0 +1,36 @@
+.inpt{
+  margin-top: 30px;
+  position: relative;
+}
+.inp__send{
+  padding: 10px 127px 10px 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid #DDDDDD;
+  border-radius: 54px;
+}
+.inp__send::placeholder{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BDBDBD;
+}
+.btn{
+  position: absolute;
+  padding: 9px 26px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #6A96D8;
+  border-radius: 100px;
+  border: none;
+  right: 5px;
+  top: 2px;
+}
